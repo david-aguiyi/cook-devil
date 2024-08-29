@@ -133,7 +133,7 @@ h6 {
 [class*="__container"] {
     max-width: 101.875rem;
     margin: 0 auto;
-    padding: 0.9375rem;
+    /* padding: 0.9375rem; */
 }
 
 .menu__list {
@@ -153,7 +153,7 @@ h6 {
 }
 
 .menu__item:nth-child(3) .menu__link::before {
-    content: "Tokenomics";
+    content: "Best Calls";
 }
 
 .menu__item:nth-child(4) .menu__link::before {
@@ -1011,6 +1011,10 @@ h6 {
     line-height: normal;
 }
 
+.about__text a{
+    color: #c52d18;
+}
+
 .hello-about {
     display: inline-flex;
 }
@@ -1355,7 +1359,7 @@ h6 {
     line-height: normal;
 }
 
-.tokenomics {
+.tokenomics, .calls {
     position: relative;
     background-color: #ff4d44;
 }
@@ -1473,7 +1477,7 @@ h6 {
     left: 0;
     width: 100%;
     height: 1.25rem;
-    background-color: silver;
+    /* background-color: silver; */
 }
 
 .join__container {
@@ -1586,6 +1590,7 @@ h6 {
         -webkit-transform: translateX(2.5rem);
         transform: translateX(2.5rem);
     }
+
     .about__text._watcher-view {
         -webkit-animation: to-left 0.45s ease 0.2s forwards;
         animation: to-left 0.45s ease 0.2s forwards;
@@ -3822,4 +3827,9 @@ h6 {
     .join__social-item:hover img {
         scale: 1.2;
     }
+}
+
+.dex{
+    padding-top: 3rem;
+    
 }
